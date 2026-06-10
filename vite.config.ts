@@ -17,7 +17,7 @@ export default defineConfig(() => {
       watch: process.env.DISABLE_HMR === 'true' ? null : {},
     },
     build: {
-      assetsDir: '',
+      assetsDir: 'assets',
       rollupOptions: {
         output: {
           assetFileNames: '[name]-[hash][extname]',
